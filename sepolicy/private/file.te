@@ -12,6 +12,3 @@ type sysfs_fpc_proximity, sysfs_type, fs_type;
 type sysfs_oem, sysfs_type, fs_type;
 type sysfs_graphics, sysfs_type, fs_type;
 type sysfs_battery_supply, sysfs_type, fs_type;
-
-# system
-type system_configs_file, system_file_type, file_type;
