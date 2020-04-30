@@ -186,6 +186,10 @@
          The default is false. -->
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
+    <!-- make sure you enable this only if your device supports deep sleep
+         with active proximity sensor event listener -->
+    <bool name="config_proxiSensorWakupCheck">true</bool>
+
     <!-- ComponentName of a dream to show whenever the system would otherwise have
          gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
          try to start this dream if possible.  The dream should typically call startDozing()
